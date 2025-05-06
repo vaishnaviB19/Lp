@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery DOM Update Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    #message {
+      padding: 20px;
+      background-color: lightblue;
+      text-align: center;
+      font-size: 20px;
+      margin: 30px;
+    }
+    button {
+      display: block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="message">Original Message</div>
+  <button id="updateBtn">Update Message</button>
+
+  <script>
+    $(document).ready(function() {
+      $('#updateBtn').click(function() {
+        $('#message')
+          .text('DOM has been updated using jQuery!')
+          .css('background-color', 'lightgreen');
+      });
+    });
+  </script>
+
+</body>
+</html>

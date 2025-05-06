@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(236, 234, 230);
+    padding: 20px;
+}
+.container{
+    max-width: 400px;
+    background-color: white;
+    padding: 40px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
+h2{
+    text-align: center;
+}
+input{
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    width: 100%;
+    background-color: rgb(33, 150, 33);
+    color:white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button:hover{
+     background-color: green;
+}
+#message{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
